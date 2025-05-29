@@ -1,0 +1,40 @@
+.results {
+  padding: 60px 20px;
+  background-color: var(--bg-color);
+  text-align: center;
+}
+
+.results h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: var(-text-color);
+}
+.results-table {
+  max-width: 600px;
+  margin: 0 auto;
+  /* color: black; */
+  display: grid;
+  gap: 15px;
+}
+.result-row {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--card-color);
+  padding: 15px 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px var(--shadow-color);
+  color: black;
+}
+.score {
+  color: rgba(0, 0, 0, 0.56);
+  font-weight: bold;
+}
+span {
+  font-weight: bold;
+}
+@media (max-width: 786px) {
+  .result-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,71 @@
+{
+	"groupA": [
+	  {
+		"name": "Ayt Boutili",
+		"logo": "/logo/amjadAitBoutili.png",
+		"played": 8,
+		"gd": 12,
+		"points": 21,
+		"form": ["W", "W", "L"]
+	  },
+	  {
+		"name": "Ifssi Boughanim",
+		"logo": "/logo/Ifssi-Boughanim.png",
+		"played": 8,
+		"gd": 8,
+		"points": 16,
+		"form": ["L", "W", "W"]
+	  },
+	  {
+		"name": "Itihad Boughanim",
+		"logo": "/logo/ItihadBoughanim.png",
+		"played": 8,
+		"gd": 15,
+		"points": 19,
+		"form": ["W", "W", "D"]
+	  },
+	  {
+		"name": "Olympique Omsdkt",
+		"logo": "/logo/olympiqueOmsdkt.png",
+		"played": 8,
+		"gd": 10,
+		"points": 18,
+		"form": ["W", "D", "W"]
+	  }
+	],
+	"groupB": [
+	  {
+		"name": "Raja Wlad Ali",
+		"logo": "/logo/rajaAwaladEli.png",
+		"played": 8,
+		"gd": 10,
+		"points": 18,
+		"form": ["W", "D", "W"]
+	  },
+	  {
+		"name": "Atletico Boughanim",
+		"logo": "/logo/atletc-Boughanim.png",
+		"played": 8,
+		"gd": 10,
+		"points": 18,
+		"form": ["W", "D", "W"]
+	  },
+	  {
+		"name": "Hassaniyat El Hadjaj",
+		"logo": "/logo/Hassaniyat-al-Hajaj.png",
+		"played": 8,
+		"gd": 10,
+		"points": 18,
+		"form": ["W", "D", "W"]
+	  },
+	  {
+		"name": "Olympique Boughanim",
+		"logo": "/logo/Olympique-Boughanim.png",
+		"played": 8,
+		"gd": 10,
+		"points": 18,
+		"form": ["W", "D", "W"]
+	  }
+	]
+  }
+  

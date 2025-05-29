@@ -1,0 +1,66 @@
+/* Global Colors variables */
+:root {
+  --nav-bg: #d1e7f7;
+  --bg-color: hsla(208, 62%, 40%);
+  --text-color: rgb(237, 237, 237);
+  --nav-bg: hsla(208,100%,62%);
+  --footer-bg: hsla(208,37%,73%);
+  --anchor-color: #33c546;
+  --card-color: hsla(0, 0%, 100%);
+  --shadow-color: #224F7C;
+  --text2-color: #093b6c;
+  --button-color: hsla(82, 56%, 50%);
+}
+
+
+body {
+  /* background: radial-gradient(circle, rgb(0, 238, 255, 0.09), rgb(220, 202, 202)); */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color:var(--bg-color);
+  color: var(--text-color);
+  /* transition: background-color 0.3s ease, color 0.3s ease; */
+}
+html {
+  scroll-behavior: smooth;
+
+}
+header {
+  background-color: var(--bg-color);
+}
+a {
+  color: inherit;
+}
+h2 {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  p, span, input, textarea, button {
+    font-size: 1rem;
+  }
+  section {
+    padding: 40px 15px;
+  }
+}
+@media (max-width: 480px) {
+  h1, h2 {
+    font-size: 1.2rem;
+  }
+
+  p, a, button {
+    font-size: 0.95rem;
+  }
+
+  section {
+    padding: 20px 12px;
+  }
+
+  .team-card, .result-row {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+

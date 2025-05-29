@@ -1,0 +1,35 @@
+.about {
+  padding: 60px 20px;
+  background-color: var(--bg-color);
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.about p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+.demo-video-section {
+  /* padding: 40px 20px; */
+  text-align: center;
+  /* background-color: var(--header-bg); */
+  /* color: var(--text-color); */
+}
+/* .demo-video-section h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+} */
+.demo-video {
+  width: 100%;
+  max-width: 720px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}

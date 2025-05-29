@@ -1,0 +1,28 @@
+.hero {
+  /* background: url('/hero.jpg') center no-repeat; */
+  /* background: radial-gradient(circle, rgb(0, 238, 255, 0.09), rgb(220, 202, 202)); */
+  color: var(--text-color);
+  padding: 100px 20px;
+  text-align: center;
+  background-color: var(--bg-color);
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 15px;
+  }
+  .hero h2 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+}
