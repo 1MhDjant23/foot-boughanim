@@ -1,15 +1,15 @@
 /* Header Layout */
 .header {
+  height: 60px;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 12px 20px;
   top: 0;
-  z-index: 100;
+  width: 100%;
+  z-index: 1000;
 }
-/* .header:hover {
-  box-shadow: 0 2px 6px var(--shadow-color);
-} */
 
 .logo {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -17,13 +17,12 @@
   font-size: 36px;
   display: flex;
   align-items: center;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .logo-part1 {
-  color: var(--text-color); 
-  /* background: linear-gradient(to right, #03080a, #04375e);  */
-  /* -webkit-background-clip: text; */
-  /* -webkit-text-fill-color: transparent; */
+  color: var(--text-color);
   font-style: italic;
   margin-right: 4px;
 }
@@ -32,7 +31,6 @@
   background: linear-gradient(to right, #86bcf1, #162a3e); 
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  /* color: #124272; */
 }
 
 .header-controls {
@@ -66,7 +64,7 @@
 
 .nav a {
   text-decoration: none;
-  color: white;
+  /* color: white; */
   font-size: 1rem;
   transition: color 0.2s;
 }
