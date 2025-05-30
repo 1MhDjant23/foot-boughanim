@@ -12,6 +12,9 @@
   --button-color: hsla(82, 56%, 50%);
 }
 
+* {
+  box-sizing: border-box;
+}
 
 body {
   /* background: radial-gradient(circle, rgb(0, 238, 255, 0.09), rgb(220, 202, 202)); */
