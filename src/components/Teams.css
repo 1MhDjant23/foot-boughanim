@@ -1,32 +1,43 @@
 .teams {
+  border: none;
   padding: 60px 20px;
   background-color: var(--bg-color);
   text-align: center;
+  box-shadow: 0 3px 10px var(--shadow-color);
+  margin: 8px 8px;
+  border-radius: 4px;
 }
 
 .teams h2 {
   font-size: 2rem;
   margin-bottom: 30px;
-  color: var(--shadow-color);
+  color: var(--text-color);
 }
 
 .team-list {
-  color: black;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 20px;
+  justify-items: center;
+  align-items: start;
+  padding: 0 10px;
 }
+
 .team-card {
   background-color: var(--card-color);
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgb(89, 87, 84, 0.4);
-  width: 200px;
+  box-shadow: 0 4px 8px rgba(89, 87, 84, 0.4);
   padding: 20px;
+  width: 100%;
+  max-width: 180px;
   transition: transform 0.4s ease;
+  text-align: center;
+  cursor: pointer;
+
 }
+
 .team-card:hover {
-	box-shadow: 0 4px 10px var(--shadow-color);
+  box-shadow: 0 4px 10px var(--shadow-color);
   transform: translateY(-5px);
 }
 
@@ -35,18 +46,139 @@
   margin-bottom: 10px;
   font-size: 1.2rem;
 }
+
 .team-card p {
   color: var(--shadow-color);
   font-size: 0.95rem;
 }
 
-@media (max-width: 768px) {
-  .team-list {
-    align-items: center;
+/* Optional: Tweak heading size on small screens */
+@media (max-width: 480px) {
+  .teams h2 {
+    font-size: 1.4rem;
   }
-  .team-card {
-    padding: 20px;
-    width: 200px;
+
+  .team-card h3 {
+    font-size: 1rem;
+  }
+
+  .team-card p {
+    font-size: 0.9rem;
   }
 }
 
+/* ---------------- Modal style ---------------------*/
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: var(--card-color);
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
+}
+
+.modal h3 {
+  margin-bottom: 10px;
+  color: var(--text2-color);
+}
+
+.modal ul {
+  list-style: none;
+  padding: 0;
+}
+
+.modal li {
+  margin-bottom: 5px;
+}
+
+.modal button {
+  margin-top: 15px;
+  padding: 8px 12px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.modal button:hover {
+  background: var(--shadow-color);
+}
+
+/*-------- Formation ----------------*/
+.modal h4 {
+  color: var(--text2-color);
+}
+
+.formation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #0b6623; /* green field */
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px 0;
+  color: white;
+  position: relative;
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.player {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid white;
+  font-size: 0.9rem;
+}
+
+.substitutes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.sub {
+  background: #ccc;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.gk .player {
+  background-color: #f00;
+}
+.def .player {
+  background: #00f;
+}
+
+.mid .player {
+  background: #0a0;
+}
+.att .player {
+  background: #ff0;
+  color: #000;
+}

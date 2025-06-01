@@ -1,15 +1,18 @@
 .league-table-section {
+	border: none;
 	padding: 1rem;
-	width: 100%;
-	box-sizing: border-box;
-  }
+	/* width: 100%; */
+	/* box-sizing: border-box; */
+	box-shadow: 0 3px 10px var(--shadow-color);
+	margin: 8px 8px;
+	border-radius: 4px;  }
   
   .league-table {
 	width: 100%;
 	max-width: 500px;
 	border-collapse: collapse;
 	background-color: var(--card-color);
-	box-shadow: 0 0 10px var(--shadow-color);
+	box-shadow: 3px 8px 5px var(--shadow-color);
 	border-radius: 6px;
 	overflow: hidden;
 	table-layout: auto;
@@ -83,6 +86,7 @@
 	.league-table {
 		display: block;
 		overflow-x: auto;
+		/* margin: 8px 8px; */
 		/* font-size: 14px; */
 	  }
 	.league-table th,
@@ -104,45 +108,3 @@
 	}
   }
   
-  /* @media (max-width: 768px) {
-	.league-table {
-	  display: block;
-	  overflow-x: auto;
-	  font-size: 14px;
-	}
-  
-	.league-table th,
-	.league-table td {
-	  padding: 8px;
-	}
-  
-	.team-logo {
-	  width: 20px;
-	  height: 20px;
-	}
-  
-	.form .result {
-	  width: 18px;
-	  height: 18px;
-	  font-size: 10px;
-	  line-height: 18px;
-	}
-  }
-
-  .table-group {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 2rem;
-	justify-content: center;
-  }
-  
-  .table-group .league-table {
-	max-width: 500px;
-	width: 100%;
-  }
-
-  .table-group h3 {
-	text-align: center;
-	color: var(--text-color);
-	margin-bottom: 0.5rem;
-  } */

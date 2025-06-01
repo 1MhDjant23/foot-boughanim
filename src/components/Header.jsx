@@ -34,7 +34,6 @@ function Header() {
         )}
       </div>
 
-    </header>
       <nav ref={navRef} className={`nav ${menuOpen ? "open" : ""}`}>
         {menuOpen && (
           <button className="close-menu" onClick={() => setMenuOpen(false)}>
@@ -44,9 +43,11 @@ function Header() {
         <a href="#teams" onClick={() => setMenuOpen(false)}>Teams</a>
         <a href="#schedule" onClick={() => setMenuOpen(false)}>Schedule</a>
         <a href="#results" onClick={() => setMenuOpen(false)}>Results</a>
+        <a href="/rules.pdf" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>Rules</a>
+        <a href="#about"  onClick={() => setMenuOpen(false)}>About</a>
         <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
-        <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
       </nav>
+    </header>
         </>
   );
 }

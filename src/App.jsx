@@ -17,14 +17,17 @@ function App() {
     <div>
       <Header />
       <section className="demo-video-section">
-        <video className="demo-video"
-          loop
-          autoPlay
-          muted
-        >
-          <source src="/demo.mp4" type="video/mp4"/>
-          Your browser does not support the video tag.
-        </video>
+        <div className="demo-video-container">
+          <h1 className="demo-video-text"> دوري بوغانيم لكورة القدم في نسخته ال21</h1>
+          <video className="demo-video"
+            loop
+            autoPlay
+            muted
+            >
+            <source src="/demo.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </section>
       <Hero />
       <Schedule />

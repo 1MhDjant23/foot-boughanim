@@ -3,9 +3,9 @@ import './VideoEvent.css';
 
 function VideoEvent() {
   const videos = [
-    { src: '/demo.mp4', title: 'Final Match Highlights' },
-    { src: '/logov.mp4', title: 'Top Goals Compilation' },
-    { src: 'https://www.w3schools.com/html/mov_bbb.mp4', title: 'Behind the Scenes' }
+    { src: 'https://www.w3schools.com/html/mov_bbb.mp4', title: 'Behind the Scenes' },
+    // { src: '/moments.mp4', title: 'أهم لحظات مراسيم سحب قرعة دوري بوغانيم في نسخته ال21' },
+    { src: '/demo.mp4', title: 'Final Match Highlights' }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -28,7 +28,9 @@ function VideoEvent() {
             ❮
           </button>
 
-          <video className="event-video" controls  muted>
+          <video
+            key={currentIndex}
+             className="event-video" controls  muted autoPlay>
             <source src={videos[currentIndex].src} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -53,47 +55,3 @@ function VideoEvent() {
 }
 
 export default VideoEvent;
-
-
-
-// import React, { useState } from 'react';
-// import './VideoEvent.css';
-
-// function VideoEvent() {
-//   const videos = [
-//     { src: '/video1.mp4', title: 'Final Match Highlights' },
-//     { src: '/video2.mp4', title: 'Top Goals Compilation' },
-//     { src: '/video3.mp4', title: 'Behind the Scenes' }
-//   ];
-
-//   const [currentIndex, setCurrentIndex] = useState(0);
-
-//   const handleSwitch = (index) => {
-//     setCurrentIndex(index);
-//   };
-
-//   return (
-//     <section className="video-event-section">
-//       <div className="video-event-card">
-//         <h2>{videos[currentIndex].title}</h2>
-//         <video className="event-video" controls>
-//           <source src={videos[currentIndex].src} type="video/mp4" />
-//           Your browser does not support the video tag.
-//         </video>
-//         <div className="video-switch-buttons">
-//           {videos.map((_, index) => (
-//             <button
-//               key={index}
-//               onClick={() => handleSwitch(index)}
-//               className={currentIndex === index ? 'active' : ''}
-//             >
-//               {index + 1}
-//             </button>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
-
-// export default VideoEvent;

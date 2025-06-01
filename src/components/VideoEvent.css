@@ -1,7 +1,11 @@
 .video-event-section {
+	border: none;
 	padding: 2rem 1rem;
 	background-color: var(--header-bg);
 	text-align: center;
+	box-shadow: 0 3px 10px var(--shadow-color);
+	margin: 8px 8px;
+	border-radius: 4px;
   }
   
   .video-event-card {
