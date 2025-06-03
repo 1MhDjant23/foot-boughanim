@@ -1,40 +1,49 @@
 .footer {
   background: linear-gradient(to bottom, #2b65a0, #050d14); 
+  border: none;
   color: var(--text-color);
-  padding: 20px;
+  padding: 2rem 1rem;
   text-align: center;
-  font-size: 0.95rem;
-  border-top: 1px solid #175384;
-  box-shadow: 0 2px 10px var(--shadow-color);
+  border-radius: 4px;
+  border-top: 1px solid #4a7292;
+	box-shadow: 0 15px 2px var(--shadow-color);
+
 }
 
-.social {
-  display: flex;
-  justify-content:space-between;
-  border-bottom: 1px solid var(--text2-color);
-  padding-bottom: 16px;
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-.social h2 {
-  text-decoration: underline;
-
-  
+.footer-social {
+  margin: 1rem 0;
 }
 
-.social-media a {
-  background-color: var(--footer-color);
-  border-radius: 16px;
+.footer-social a {
   color: var(--text-color);
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #1da1f2; /* Twitter blue, change as desired */
+}
+
+.footer-contact {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.footer-contact a {
+  color: var(--text-color);
+  margin-left: 0.3rem;
   text-decoration: none;
-  padding: 10px;
-  margin-left: 30px;
-  font-size: 1.2rem;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  transition: background-color 0.6s ease;
 }
 
-.social-media a:hover {
-  background-color: var(--text2-color);
+.footer-contact a svg {
+  margin-right: 5px;
 }
+

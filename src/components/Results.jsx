@@ -15,9 +15,9 @@ function Results() {
       <div className="results-table">
         {results.map((result, index) => (
           <div className="result-row" key={index}>
-            <span>{result.teamA}</span>
+            <span className="team-result">{result.teamA}</span>
             <span className="score">{result.score}</span>
-            <span>{result.teamB}</span>
+            <span className="team-result">{result.teamB}</span>
           </div>
         ))}
       </div>

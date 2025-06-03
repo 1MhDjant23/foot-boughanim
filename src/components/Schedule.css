@@ -1,7 +1,10 @@
 .schedule {
+  border: none;
+  margin: 8px 8px;
   padding: 60px 20px;
-  background-color: var(--bg-color);
   text-align: center;
+  box-shadow: 0 3px 10px var(--shadow-color);
+  border-radius: 4px;
 }
 
 .schedule h2 {
@@ -18,17 +21,22 @@
 }
 
 .match-row {
-  background-color: var(--card-color);
   color: var(--shadow-color);
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   padding: 15px 20px;
   border-radius: 6px;
-  box-shadow: 0 1.5px 5px var(--shadow-color);
-};
+  box-shadow: 0 7px 5px var(--shadow-color);
+  background-color: var(--card-color);
 
-.match-row span {
+}
+
+.match-row span  {
   font-size: 1rem;
+}
+
+.date-time {
+  color: rgb(30, 209, 149);
 }
 .team-name {
   font-weight: bold;

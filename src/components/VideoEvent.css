@@ -1,7 +1,7 @@
 .video-event-section {
 	border: none;
 	padding: 2rem 1rem;
-	background-color: var(--header-bg);
+	background-color: var(--bg-color);
 	text-align: center;
 	box-shadow: 0 3px 10px var(--shadow-color);
 	margin: 8px 8px;
@@ -11,9 +11,9 @@
   .video-event-card {
 	max-width: 700px;
 	margin: 0 auto;
-	background: var(--header-bg);
+	background: var(--bg-color);
 	border-radius: 12px;
-	box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+	box-shadow: 0 8px 12px var(--shadow-color);
 	padding: 1.5rem;
 	position: relative;
   }
@@ -23,6 +23,9 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	box-shadow: 0 8px 12px var(--shadow-color);
+	border-radius: 8px;
+
   }
   
   .event-video {

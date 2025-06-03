@@ -16,9 +16,9 @@ function Schedule() {
       <div className="schedule-table">
         {matches.map((match, index) => (
           <div className="match-row" key={index}>
-            <span>{match.date}</span>
+            <span className="date-time">{match.date}</span>
             <span className="team-name">{match.teamA} <span className="vs-tag">vs</span> {match.teamB}</span>
-            <span>{match.time}</span>
+            <span className="date-time">{match.time}</span>
           </div>
         ))}
       </div>
