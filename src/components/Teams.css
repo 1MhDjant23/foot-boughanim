@@ -16,8 +16,8 @@
 
 .team-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
   justify-items: center;
   align-items: start;
   padding: 0 10px;
@@ -54,16 +54,24 @@
 
 /* Optional: Tweak heading size on small screens */
 @media (max-width: 480px) {
+  .team-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .team-card {
+    max-width: 100%;
+    padding: 12px;
+  }
+
   .teams h2 {
     font-size: 1.4rem;
   }
 
   .team-card h3 {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .team-card p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
 
