@@ -67,7 +67,7 @@ function LeagueTable() {
 
   const renderLastMatches = (groupName, results) => (
     <div className="last-matches">
-      <p><strong>: {groupName} - آخر مباريات </strong></p>
+      <p><strong>: {groupName} - نتائج آخر مباريات </strong></p>
       <div className="divider"></div>
       <ul>
         {results.map((match, index) => (
