@@ -22,7 +22,7 @@ function App() {
       <Header />
       <section className="demo-video-section">
         <div className="demo-video-container">
-          <h1 className="demo-video-text"> دوري بوغانيم لكورة القدم في نسخته ال21</h1>
+          <h1 className="demo-video-text"> دوري بوغانيم لكرة القدم في نسخته ال21</h1>
           <iframe className="demo-video"
             src="https://www.youtube.com/embed/po5fQu2WFJE?autoplay=1&mute=1&loop=1&showinfo=0&rel=0&modestbranding=1&controls=0"
             title="YouTube video player"
