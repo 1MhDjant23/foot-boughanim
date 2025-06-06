@@ -11,14 +11,18 @@
 .results h2 {
   font-size: 2rem;
   margin-bottom: 30px;
-  color: var(-text-color);
+  color: var(--tittle-color);
 }
 .results-table {
   max-width: 600px;
   margin: 0 auto;
-  /* color: black; */
   display: grid;
   gap: 15px;
+}
+.results-table h3 {
+  font-size: 1.5rem;
+  color: var(--button-color);
+  margin-bottom: 10px;
 }
 .result-row {
   display: flex;
@@ -28,6 +32,11 @@
   border-radius: 6px;
   box-shadow: 0 6px 6px var(--shadow-color);
 }
+/* .result-row h3 {
+  font-size: 1.2rem;
+  color: white;
+  margin: 0;
+} */
 .team-result {
   color: var(--shadow-color);
 }

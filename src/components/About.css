@@ -1,30 +1,75 @@
+
 .about {
   border: none;
-  padding: 60px 20px;
   background-color: var(--bg-color);
+  padding: 80px 20px;
   text-align: center;
-	box-shadow: 0 3px 10px var(--shadow-color);
   margin: 8px 8px;
   border-radius: 4px;
+  box-shadow: 0 3px 10px var(--shadow-color);
+  direction: rtl;
+  max-width: 1000px;
+  animation: fadeInUp 1s ease-in-out;
 }
 
 .about h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: var(--text-color);
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: var(--tittle-color);
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .about p {
-  font-size: 1.1rem;
-  max-width: 800px;
+  font-size: 1.2rem;
+  line-height: 2;
+  color: var(--para-color);
+  max-width: 900px;
   margin: 0 auto;
-  color: var(--text-color);
-  line-height: 1.6;
+  text-align: justify;
+  padding: 0 15px;
 }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.section-divider {
+  width: 60px;
+  height: 4px;
+  background-color: var(--accent-color, #ffcc00);
+  margin: 0 auto 30px;
+  border-radius: 2px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about {
+    padding: 60px 15px;
+  }
+
+  .about h2 {
+    font-size: 1.8rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+    line-height: 1.8;
+    padding: 0 10px;
+  }
+}
+
 
 /*------- Demo Video section ---------------*/
 
 .demo-video-section {
+  border: none;
   padding: 70px 0 0;
   width: 100%;
   text-align: center;
@@ -35,9 +80,10 @@
 .demo-video {
   width: 100%;
   height: auto;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+  aspect-ratio: 16 / 9; /* Maintains the HD aspect ratio */
+  object-fit: cover; /* Ensures the video fits the container */
   display: block;
+  border: none; /* Removes any border around the iframe */
 }
 
 .demo-video-container {
@@ -79,12 +125,25 @@
   text-align: right;
   direction: rtl;
   line-height: 1.4;
-  /* padding: 0.5rem 1rem; */
   max-width: 90%;
   box-sizing: border-box;
   white-space: normal; 
 }
-
+/* 
+.mute-button {
+  position: absolute; 
+  top: 10px; 
+  left: 10px; 
+  padding: 10px 20px;
+  background-color: var(--para-color);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 8; 
+} */
+/* .mute-button:hover {
+  background-color: var(--tittle-color);
+} */
 @media (max-width: 768px) {
   .about h2 {
     font-size: 1.5rem;

@@ -40,12 +40,13 @@ function Header() {
             ✖
           </button>
         )}
-        <a href="#teams" onClick={() => setMenuOpen(false)}>Teams</a>
-        <a href="#schedule" onClick={() => setMenuOpen(false)}>Schedule</a>
-        <a href="#results" onClick={() => setMenuOpen(false)}>Results</a>
-        <a href="/rules.pdf" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>Rules</a>
-        <a href="#about"  onClick={() => setMenuOpen(false)}>About</a>
-        <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
+        <a href="#teams" onClick={() => setMenuOpen(false)}>الفرق المشاركة</a>
+        <a href="#schedule" onClick={() => setMenuOpen(false)}>مباريات اليوم</a>
+        <a href="#results" onClick={() => setMenuOpen(false)}>نتائج مباريات اليوم</a>
+        <a href="#table" onClick={() => setMenuOpen(false)}>جدول الترتيب</a>
+        <a href="/rules.pdf" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)}>قوانين الدوري</a>
+        <a href="#about"  onClick={() => setMenuOpen(false)}>حول</a>
+        <a href="#contact" onClick={() => setMenuOpen(false)}>تواصل معنا</a>
       </nav>
     </header>
         </>

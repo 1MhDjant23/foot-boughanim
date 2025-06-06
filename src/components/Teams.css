@@ -10,8 +10,8 @@
 
 .teams h2 {
   font-size: 2rem;
-  margin-bottom: 30px;
-  color: var(--text-color);
+  margin-bottom: 30px; 
+  color: var(--tittle-color);
 }
 
 .team-list {

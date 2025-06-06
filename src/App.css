@@ -10,6 +10,8 @@
   --shadow-color: #224F7C;
   --text2-color: #093b6c;
   --button-color: hsla(82, 56%, 50%);
+  --para-color: #adc2d6;
+  --tittle-color: #dee6ec;
 }
 
 * {
@@ -38,6 +40,7 @@ a {
   color: inherit;
 }
 h2 {
+
   text-align: center;
 }
 

@@ -4,12 +4,14 @@ import './About.css';
 function About() {
   return (
     <section className="about" id="about">
-      <h2>About the Tournament</h2>
+      <h2>حول الدوري</h2>
+      <div className="section-divider"></div>
       <p>
-        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
-aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        The last Football Tournament  brings together the best amateur team in the region to compte in a thrilling knockout-style champion.
-    Hosted annually, the Tournament aims to promote sportsmanship, youth engagement, and community celebration.
+      دوري بوغانيم لكرة القدم هو أكثر من مجرد منافسة رياضية، إنه تقليد سنوي يجمع بين الحماس، الروح الرياضية، والانتماء. منذ انطلاق نسخته الأولى، أصبح الدوري منصة مميزة لعشاق كرة القدم من مختلف الأعمار والمستويات، يلتقون فيها على أرضية الملعب لصناعة لحظات لا تُنسى.
+
+نحتفل اليوم بـ النسخة 21 من الدوري، وهي شهادة على الاستمرارية، الشغف، والإقبال المتزايد عامًا بعد عام. يهدف دوري بوغانيم إلى نشر ثقافة اللعب النظيف، تعزيز روح الفريق، وتوفير بيئة ممتعة وآمنة تليق بالمشاركين والجمهور على حد سواء.
+
+سواء كنت لاعبًا، مشجعًا، أو متابعًا وفيًا، نرحب بك لتكون جزءًا من هذا الحدث الرياضي الذي بات علامة فارقة في روزنامة كرة القدم المجتمعية.
       </p>
     </section>
   );

@@ -1,70 +1,70 @@
 {
 	"groupA": [
+		{
+		"name": "حسنية الحجاج",
+		"logo": "/logo/Hassaniyat-al-Hajaj.png",
+		"played": 0,
+		"gd": 0,
+		"points": 0,
+		"form": ["", "", ""]
+	},
+		{
+		  "name": "اولمبيك بوغانيم",
+		  "logo": "/logo/Olympique-Boughanim.png",
+		  "played": 0,
+		  "gd": 0,
+		  "points": 0,
+		  "form": ["", "", ""]
+		},
 	  {
-		"name": "Ayt Boutili",
-		"logo": "/logo/amjadAitBoutili.png",
-		"played": 8,
-		"gd": 12,
-		"points": 21,
-		"form": ["W", "W", "L"]
+		"name": "اتليتيكو بوغانيم",
+		"logo": "/logo/atletc-Boughanim.png",
+		"played": 0,
+		"gd": 0,
+		"points": 0,
+		"form": ["", "", ""]
 	  },
 	  {
-		"name": "Ifssi Boughanim",
+		"name": "افسي بوغانيم",
 		"logo": "/logo/Ifssi-Boughanim.png",
-		"played": 8,
-		"gd": 8,
-		"points": 16,
-		"form": ["L", "W", "W"]
-	  },
-	  {
-		"name": "Itihad Boughanim",
-		"logo": "/logo/ItihadBoughanim.png",
-		"played": 8,
-		"gd": 15,
-		"points": 19,
-		"form": ["W", "W", "D"]
-	  },
-	  {
-		"name": "Olympique Omsdkt",
-		"logo": "/logo/olympiqueOmsdkt.png",
-		"played": 8,
-		"gd": 10,
-		"points": 18,
-		"form": ["W", "D", "W"]
+		"played": 0,
+		"gd": 0,
+		"points": 0,
+		"form": ["", "", ""]
 	  }
 	],
 	"groupB": [
+		{
+		  "name": "امجاد ايت بوتيلي",
+		  "logo": "/logo/amjadAitBoutili.png",
+		  "played": 0,
+		  "gd": 0,
+		  "points": 0,
+		  "form": ["", "", ""]
+		},
 	  {
-		"name": "Raja Wlad Ali",
+		"name": "اولمبيك اومسدكت",
+		"logo": "/logo/olympiqueOmsdkt.png",
+		"played": 0,
+		"gd": 0,
+		"points": 0,
+		"form": ["", "", ""]
+	  },
+	  {
+		"name": "رجاء اولاد علي",
 		"logo": "/logo/rajaAwaladEli.png",
-		"played": 8,
-		"gd": 10,
-		"points": 18,
-		"form": ["W", "D", "W"]
+		"played": 0,
+		"gd": 0,
+		"points": 0,
+		"form": ["", "", ""]
 	  },
 	  {
-		"name": "Atletico Boughanim",
-		"logo": "/logo/atletc-Boughanim.png",
-		"played": 8,
-		"gd": 10,
-		"points": 18,
-		"form": ["W", "D", "W"]
-	  },
-	  {
-		"name": "Hassaniyat El Hadjaj",
-		"logo": "/logo/Hassaniyat-al-Hajaj.png",
-		"played": 8,
-		"gd": 10,
-		"points": 18,
-		"form": ["W", "D", "W"]
-	  },
-	  {
-		"name": "Olympique Boughanim",
-		"logo": "/logo/Olympique-Boughanim.png",
-		"played": 8,
-		"gd": 10,
-		"points": 18,
-		"form": ["W", "D", "W"]
+		"name": "اتحاد بوغانيم",
+		"logo": "/logo/ItihadBoughanim.png",
+		"played": 0,
+		"gd": 0,
+		"points": 0,
+		"form": ["", "", ""]
 	  }
 	]
   }

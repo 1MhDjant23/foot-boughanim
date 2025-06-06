@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Teams.css';
 
 const teams = [
-  { name: 'أولامپيك بوغانيم', city: 'دوار أيت بوتيلي',
+  { name: 'أولامپيك بوغانيم', city: 'دوار بوغانيم',
     players: {
   starting: [
     { name: 'عيسى أكنوش', position: 'GK' },
@@ -25,140 +25,142 @@ const teams = [
   { name: 'إفسي بوغانيم', city: 'دوار بوغانيم' ,
     players: {
   starting: [
-    { name: 'Player 1', position: 'GK' },
-    { name: 'Player 2', position: 'DEF' },
-    { name: 'Player 3', position: 'DEF' },
-    { name: 'Player 4', position: 'MID' },
-    { name: 'Player 5', position: 'MID' },
-    { name: 'Player 6', position: 'DEF' },
-    { name: 'Player 7', position: 'ATT' }
+    { name: 'انور بن الهيان', position: 'GK' },
+    { name: 'إسماعيل ازرميم', position: 'DEF' },
+    { name: 'حسين اوبيه', position: 'DEF' },
+    { name: 'عمر اوبيه', position: 'MID' },
+    { name: 'اسماعيل السعدوني', position: 'MID' },
+    { name: 'العربي نايت مهدي', position: 'DEF' },
+    { name: 'عبد السلام بنسي', position: 'ATT' }
   ],
   substitutes: [
-    { name: 'Sub 1' },
-    { name: 'Sub 2' },
-    { name: 'Sub 3' },
-    { name: 'Sub 4' },
-    { name: 'Sub 5' }
+    { name: 'إبراهيم ايت القاضي' },
+    { name: 'ياسر الكريضة' },
+    { name: 'المحجوب بومليك' },
+    { name: 'ياسين اكنوش' },
+    { name: 'اوتكماط عبد الكريم'}
   ]
 }
   },
   { name: 'إتحاد بوغانيم', city: 'دوار بوغانيم' ,
     players: {
   starting: [
-    { name: 'Player 1', position: 'GK' },
-    { name: 'Player 2', position: 'DEF' },
-    { name: 'Player 3', position: 'DEF' },
-    { name: 'Player 4', position: 'MID' },
-    { name: 'Player 5', position: 'MID' },
-    { name: 'Player 6', position: 'ATT' },
-    { name: 'Player 7', position: 'DEF' }
+    { name: 'خالد سي امغار', position: 'GK' },
+    { name: 'بالمعلم محمد', position: 'DEF' },
+    { name: 'سعيو ياسين', position: 'DEF' },
+    { name: 'صالح ابيه', position: 'MID' },
+    { name: 'عبد اللطيف سروي', position: 'MID' },
+    { name: 'ياسين وحمان', position: 'ATT' },
+    { name: 'عبد المجيد ايت صالح', position: 'DEF' }
   ],
   substitutes: [
-    { name: 'Sub 1' },
-    { name: 'Sub 2' },
-    { name: 'Sub 3' },
-    { name: 'Sub 4' },
-    { name: 'Sub 5' }
+    { name: 'يونس شهبي' },
+    { name: 'نور الدين سي امغار' },
+    { name: 'موسى سي امغار' },
+    { name: 'بوغنيم مصطفى' },
+    // { name: 'Sub 5' }
   ]
 } 
   },
   { name: 'أولامپيك أومسدكت', city: 'دوار أومسدكت', 
     players: {
   starting: [
-    { name: 'Player 1', position: 'GK' },
-    { name: 'Player 2', position: 'DEF' },
-    { name: 'Player 3', position: 'DEF' },
-    { name: 'Player 4', position: 'MID' },
-    { name: 'Player 5', position: 'MID' },
-    { name: 'Player 6', position: 'DEF' },
-    { name: 'Player 7', position: 'ATT' }
+    { name: 'بوفوس عبد الرحمان', position: 'GK' },
+    { name: ' ساطيح عبد الرحمان', position: 'DEF' },
+    { name: 'امزيل ابراهيم', position: 'DEF' },
+    { name: 'سعيد افقيرن', position: 'MID' },
+    { name: 'تزي عبد الرحيم', position: 'MID' },
+    { name: 'نوردين منير', position: 'DEF' },
+    { name: 'اشراف امزيل', position: 'ATT' }
   ],
   substitutes: [
-    { name: 'Sub 1' },
-    { name: 'Sub 2' },
-    { name: 'Sub 3' },
-    { name: 'Sub 4' },
-    { name: 'Sub 5' }
+    { name: 'بوكرو عبد الكريم' },
+    { name: 'مرير ياسين' },
+    { name: 'ادير عمر' },
+    { name: 'ادير محمد' },
+    { name: 'باقي خسني' },
+    { name: 'تزي هشام' }
   ]
 }
   }, 
   { name: 'رجاء اولاد علي', city: 'دوار اولاد علي', 
     players: {
   starting: [
-    { name: 'Player 1', position: 'GK' },
-    { name: 'Player 2', position: 'DEF' },
-    { name: 'Player 3', position: 'DEF' },
-    { name: 'Player 4', position: 'MID' },
-    { name: 'Player 5', position: 'MID' },
-    { name: 'Player 6', position: 'ATT' },
-    { name: 'Player 7', position: 'DEF' }
+    { name: 'حميد أهراي', position: 'GK' },
+    { name: 'علي نايت مهدي', position: 'DEF' },
+    { name: 'أيوب الطاهيري', position: 'DEF' },
+    { name: 'عبد الهادي سعدان', position: 'MID' },
+    { name: 'عبد الواحد أحدي', position: 'MID' },
+    { name: 'سعيد الرقيتي', position: 'ATT' },
+    { name: 'ياسين المهاني', position: 'DEF' }
   ],
   substitutes: [
-    { name: 'Sub 1' },
-    { name: 'Sub 2' },
-    { name: 'Sub 3' },
-    { name: 'Sub 4' },
-    { name: 'Sub 5' }
+    { name: 'عمر ايت شلح' },
+    { name: 'طارق اوبلال' },
+    { name: 'محمد الغجاج ' },
+    { name: 'ابراهيم كحيم ' },
+    { name: 'كمال احميمي' }
   ]
 }
   }, 
   { name: 'أتليتيكو بوغانيم', city: 'دوار بوغانيم', 
     players: {
   starting: [
-    { name: 'Player 1', position: 'GK' },
-    { name: 'Player 2', position: 'DEF' },
-    { name: 'Player 3', position: 'DEF' },
-    { name: 'Player 4', position: 'MID' },
-    { name: 'Player 5', position: 'MID' },
-    { name: 'Player 6', position: 'DEF' },
-    { name: 'Player 7', position: 'ATT' }
+    { name: 'محمد شاعلي', position: 'GK' },
+    { name: 'عبد الكبير أيت الطالب', position: 'DEF' },
+    { name: 'حسن أيت الطالب', position: 'DEF' },
+    { name: 'ياسين أيت الطالب', position: 'MID' },
+    { name: ' عبد الكريم السعيدي', position: 'MID' },
+    { name: 'خالد السعيدي', position: 'DEF' },
+    { name: 'عصام السعيدي', position: 'ATT' }
   ],
   substitutes: [
-    { name: 'Sub 1' },
-    { name: 'Sub 2' },
-    { name: 'Sub 3' },
-    { name: 'Sub 4' },
-    { name: 'Sub 5' }
+    { name: 'ناصر سي امغار' },
+    { name: 'علي أيت الطالب' },
+    { name: 'مصطفى أكنوش' }
+    // { name: 'Sub 4' },
+    // { name: 'Sub 5' }
   ]
 }
   },
   { name: 'حسنية الحجاج', city: 'دوار الحجاج', 
     players: {
   starting: [
-    { name: 'Player 1', position: 'GK' },
-    { name: 'Player 2', position: 'DEF' },
-    { name: 'Player 3', position: 'DEF' },
-    { name: 'Player 4', position: 'MID' },
-    { name: 'Player 5', position: 'MID' },
-    { name: 'Player 6', position: 'ATT' },
-    { name: 'Player 7', position: 'DEF' }
+    { name: 'وليد مغيت', position: 'GK' },
+    { name: 'زكرياء الصغير', position: 'DEF' },
+    { name: 'عبدالرحيم الصغير', position: 'DEF' },
+    { name: 'المهدي احميدان', position: 'MID' },
+    { name: 'محمد سوريح', position: 'MID' },
+    { name: 'عبدالرحيم بنيدو', position: 'ATT' },
+    { name: 'احمد اوبلال', position: 'DEF' }
   ],
   substitutes: [
-    { name: 'Sub 1' },
-    { name: 'Sub 2' },
-    { name: 'Sub 3' },
-    { name: 'Sub 4' },
-    { name: 'Sub 5' }
+    { name: 'رشيد لميلودي' },
+    { name: 'عبدالكريم بنشيخ' },
+    { name: 'عبدالصمد العاميري' },
+    { name: 'جواد الصافي' },
+    { name: ' ايوب احميدان' }
   ]
 } 
   },
-  { name: 'أيت بوتيلي', city: 'دوار بوغانيم', 
+  { name: 'أيت بوتيلي', city: 'دوار أيت بوتيلي', 
     players: {
     starting: [
-      { name: 'Player 1', position: 'GK' },
-      { name: 'Player 2', position: 'DEF' },
-      { name: 'Player 3', position: 'DEF' },
-      { name: 'Player 4', position: 'DEF' },
-      { name: 'Player 5', position: 'MID' },
-      { name: 'Player 6', position: 'MID' },
-      { name: 'Player 7', position: 'ATT' }
+      { name: 'علي اكتير', position: 'GK' },
+      { name: 'صلاح الركيتي', position: 'DEF' },
+      { name: 'لحسن بوفضيل', position: 'DEF' },
+      { name: 'يوسف العابيدي', position: 'DEF' },
+      { name: 'زكرياء اكثير', position: 'MID' },
+      { name: 'البياضي عبد الرحيم', position: 'MID' },
+      { name: 'الوهلولي محمد ', position: 'ATT' }
     ],
     substitutes: [
-      { name: 'Sub 1' },
-      { name: 'Sub 2' },
-      { name: 'Sub 3' },
-      { name: 'Sub 4' },
-      { name: 'Sub 5' }
+      { name: ' الوهلولي المهدي' },
+      { name: 'حسن الجبلي' },
+      { name: 'السويدي محمد' },
+      { name: 'محمد خالص' },
+      { name: 'السويدي زكرياء' },
+      { name: 'عماد الركيتي' }
     ]
   } 
   }
@@ -176,8 +178,8 @@ function Teams() {
   };
 
   return (
-    <section className="teams">
-      <h2>Participating Teams</h2>
+    <section className="teams" id="teams">
+      <h2>الفرق المشاركة</h2>
       <div className="team-list">
         {teams.map((team, index) => (
           <div className="team-card" key={index} onClick={() => openModal(team)}>
@@ -206,8 +208,6 @@ function Teams() {
     );
   })}
 </div>
-
-
         <h4>البدلاء</h4>
         <div className="substitutes">
           {selectedTeam.players.substitutes.map((sub, idx) => (

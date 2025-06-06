@@ -3,9 +3,9 @@ import './VideoEvent.css';
 
 function VideoEvent() {
   const videos = [
-    { src: 'https://www.w3schools.com/html/mov_bbb.mp4', title: 'Behind the Scenes' },
-    // { src: '/moments.mp4', title: 'أهم لحظات مراسيم سحب قرعة دوري بوغانيم في نسخته ال21' },
-    { src: '/demo.mp4', title: 'Final Match Highlights' }
+    { id: 'po5fQu2WFJE', title: 'ذكريات افضل دوري في منطقة بوغانيم' },
+    { id: '_d4toIH3kCc', title: 'أجواء قرعة دوري بوغانيم' },
+    { id: 'GY_8ZlA0D0Q', title: '...' }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -27,14 +27,15 @@ function VideoEvent() {
           <button className="arrow left" onClick={prevVideo}>
             ❮
           </button>
-
-          <video
+          <iframe
             key={currentIndex}
-             className="event-video" controls  muted autoPlay>
-            <source src={videos[currentIndex].src} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-
+            className="event-video"
+            src={`https://www.youtube.com/embed/${videos[currentIndex].id}?autoplay=1&showinfo=0&rel=0&modestbranding=1&controls=0`}
+            title={videos[currentIndex].title}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
           <button className="arrow right" onClick={nextVideo}>
             ❯
           </button>

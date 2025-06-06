@@ -4,6 +4,8 @@ import './LeagueTable.css';
 function LeagueTable() {
   const [groupA, setGroupA] = useState([]);
   const [groupB, setGroupB] = useState([]);
+  const [showGroupAResults, setShowGroupAResults] = useState(false);
+  const [showGroupBResults, setShowGroupBResults] = useState(false);
 
   useEffect(() => {
     fetch('/data/teams.json')
@@ -50,17 +52,54 @@ function LeagueTable() {
       </tbody>
     </table>
   );
+  const [groupAResults] = useState([
+    // 'اتحاد بوغانيم 1 - 0 اولمبيك اومسدكت',
+    // 'اتحاد بوغانيم 1 - 0 اولمبيك اومسدكت',
+    // 'حسنية الحجاج 1 - 2 اولمبيك بوغانيم',
+    // 'اتحاد بوغانيم 1 - 0 اولمبيك اومسدكت'
+  ]);
+  const [groupBResults] = useState([
+    // 'اتحاد بوغانيم 1 - 0 اولمبيك اومسدكت',
+    // 'اتحاد بوغانيم 1 - 0 اولمبيك اومسدكت',
+    // 'اتحاد بوغانيم 1 - 0 اولمبيك اومسدكت',
+    // 'اتحاد بوغانيم 1 - 0 اولمبيك اومسدكت'
+  ]);
+
+  const renderLastMatches = (groupName, results) => (
+    <div className="last-matches">
+      <p><strong>: {groupName} - آخر مباريات </strong></p>
+      <div className="divider"></div>
+      <ul>
+        {results.map((match, index) => (
+          <li key={index}>{match}</li>  
+        ))}
+      </ul>
+    </div>
+  );
 
   return (
-    <section className="league-table-section">
-      <h2>League Phase Table</h2>
+    <section className="league-table-section" id="table">
+      <h2>جدول الترتيب</h2>
       <div className="table-group">
         <div>
-          <h3>Group A</h3>
+          <div className="group-header">
+            <h3>Group A</h3>
+            <button onClick={() => setShowGroupAResults(!showGroupAResults)}>
+              {showGroupAResults ? 'Hide Results' : 'Show All Results'}
+            </button>
+          </div>
+          {showGroupAResults && renderLastMatches('Group A', groupAResults)}
           {renderTable(groupA)}
         </div>
+
         <div>
-          <h3>Group B</h3>
+          <div className="group-header">
+            <h3>Group B</h3>
+            <button onClick={() => setShowGroupBResults(!showGroupBResults)}>
+              {showGroupBResults ? 'Hide Results' : 'Show All Results'}
+            </button>
+          </div>
+          {showGroupBResults && renderLastMatches('Group B', groupBResults)}
           {renderTable(groupB)}
         </div>
       </div>
@@ -69,3 +108,4 @@ function LeagueTable() {
 }
 
 export default LeagueTable;
+

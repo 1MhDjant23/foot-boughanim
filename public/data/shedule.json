@@ -1,14 +1,15 @@
+
 [
 	{
-		"date": "June 1",
-		"teamA": "Red Warriors",
-		"teamB": "Blue Hawks",
-		"time": "3:00 PM"
+		"date": "07/06/2025",
+		"teamA": "اولمبيك بوغانيم",
+		"teamB": "حسنية الحجاج",
+		"time": "17:30 PM"
 	  },
 	{
-	  "date": "June 3",
-	  "teamA": "Green Titans",
-	  "teamB": "Golden Eagles",
-	  "time": "5:00 PM"
+	  "date": "07/06/2025",
+	  "teamA": "افسي بوغانيم",
+	  "teamB": "اتليتيكو بوغانيم",
+	  "time": "19:00 PM"
 	}
 ]

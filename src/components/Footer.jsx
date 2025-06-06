@@ -7,12 +7,12 @@ function Footer() {
     <footer className="footer">
        <p>© 2025 Football Tournament. All rights reserved.</p>
        <div className="footer-social">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-          <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+          <a href="https://www.facebook.com/profile.php?id=61569925741299" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+          <a href="https://www.instagram.com/association_boughanim/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+          <a href="https://github.com/1MhDjant23" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
         </div>
         <p className="footer-contact">
-        Developed by <a href="mailto:your.email@example.com"><FaEnvelope /> mhdjant607@gmail.com</a>
+        Developed by <a href="mailto:mhdjant607@gmail.com"><FaEnvelope /> mhdjant607@gmail.com</a>
         </p>
     </footer>
   );

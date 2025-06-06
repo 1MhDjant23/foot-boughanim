@@ -4,8 +4,8 @@ import './Hero.css'
 function Hero() {
   return (
     <section className="hero">
-      <h2>Welcom to the 2025 Football championship</h2>
-    <p>Experience the thrill, passion and teamwork like never before</p>
+      <h2>مرحبا بكم في الصفحة الرسمية لدوري بوغانيم لكرة القدم</h2>
+    <p>هنا حيث يمكنك الإطلاع على كل ما يخص الدوري ...</p>
     </section>
   );
 }

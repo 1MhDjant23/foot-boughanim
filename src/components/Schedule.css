@@ -10,7 +10,7 @@
 .schedule h2 {
   font-size: 2rem;
   margin-bottom: 30px;
-  color: var(--text-color);
+  color: var(--tittle-color);
 }
 
 .schedule-table {
@@ -32,11 +32,12 @@
 }
 
 .match-row span  {
+  line-height: 2rem;
   font-size: 1rem;
 }
 
 .date-time {
-  color: rgb(30, 209, 149);
+  color: var(--new-color);
 }
 .team-name {
   font-weight: bold;
