@@ -3,10 +3,10 @@
 		{
 			"name": "افسي بوغانيم",
 			"logo": "/logo/Ifssi-Boughanim.png",
-			"played": 1,
+			"played": 2,
 			"gd": 2,
-			"points": 3,
-			"form": ["W", "", ""]
+			"points": 4,
+			"form": ["W", "D", ""]
 		},
 		{
 			"name": "اولمبيك بوغانيم",
@@ -19,10 +19,10 @@
 		{
 		"name": "حسنية الحجاج",
 		"logo": "/logo/Hassaniyat-al-Hajaj.png",
-		"played": 1,
+		"played": 2,
 		"gd": 0,
-		"points": 0,
-		"form": ["L", "", ""]
+		"points": 1,
+		"form": ["L", "D", ""]
 		},
 		{
 			"name": "اتليتيكو بوغانيم",
