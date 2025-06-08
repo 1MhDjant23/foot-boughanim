@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Teams.css';
 
 const teams = [
-  { name: 'أولامپيك بوغانيم', city: 'دوار بوغانيم',
+  { name: 'أولمبيك بوغانيم', city: 'دوار بوغانيم',
     players: {
   starting: [
     { name: 'ياسين الزاكي', position: 'GK' },
@@ -70,7 +70,7 @@ const teams = [
   ]
 } 
   },
-  { name: 'أولامپيك أومسدكت', city: 'دوار أومسدكت', 
+  { name: 'أولمبيك أومسدكت', city: 'دوار أومسدكت', 
     players: {
   starting: [
     { name: 'بوفوس عبد الرحمان', position: 'GK' },
