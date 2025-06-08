@@ -1,54 +1,54 @@
 {
 	"groupA": [
 		{
+			"name": "افسي بوغانيم",
+			"logo": "/logo/Ifssi-Boughanim.png",
+			"played": 1,
+			"gd": 2,
+			"points": 3,
+			"form": ["W", "", ""]
+		},
+		{
+			"name": "اولمبيك بوغانيم",
+			"logo": "/logo/Olympique-Boughanim.png",
+			"played": 1,
+			"gd": 1,
+			"points": 3,
+			"form": ["W", "", ""]
+		},
+		{
 		"name": "حسنية الحجاج",
 		"logo": "/logo/Hassaniyat-al-Hajaj.png",
 		"played": 1,
 		"gd": 0,
 		"points": 0,
 		"form": ["L", "", ""]
-	},
-		{
-		  "name": "اولمبيك بوغانيم",
-		  "logo": "/logo/Olympique-Boughanim.png",
-		  "played": 1,
-		  "gd": 1,
-		  "points": 3,
-		  "form": ["W", "", ""]
 		},
-	  {
-		"name": "اتليتيكو بوغانيم",
-		"logo": "/logo/atletc-Boughanim.png",
-		"played": 1,
-		"gd": 0,
-		"points": 0,
-		"form": ["L", "", ""]
-	  },
-	  {
-		"name": "افسي بوغانيم",
-		"logo": "/logo/Ifssi-Boughanim.png",
-		"played": 1,
-		"gd": 2,
-		"points": 3,
-		"form": ["W", "", ""]
-	  }
+		{
+			"name": "اتليتيكو بوغانيم",
+			"logo": "/logo/atletc-Boughanim.png",
+			"played": 1,
+			"gd": 0,
+			"points": 0,
+			"form": ["L", "", ""]
+		}
 	],
 	"groupB": [
 		{
 		  "name": "امجاد ايت بوتيلي",
 		  "logo": "/logo/amjadAitBoutili.png",
 		  "played": 1,
-		  "gd": 0,
-		  "points": 1,
-		  "form": ["D", "", ""]
+		  "gd": 1,
+		  "points": 3,
+		  "form": ["W", "", ""]
 		},
 	  {
 		"name": "اولمبيك اومسدكت",
 		"logo": "/logo/olympiqueOmsdkt.png",
 		"played": 1,
 		"gd": 0,
-		"points": 1,
-		"form": ["D", "", ""]
+		"points": 0,
+		"form": ["L", "", ""]
 	  },
 	  {
 		"name": "رجاء اولاد علي",

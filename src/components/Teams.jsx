@@ -5,40 +5,44 @@ const teams = [
   { name: 'أولامپيك بوغانيم', city: 'دوار بوغانيم',
     players: {
   starting: [
-    { name: 'عيسى أكنوش', position: 'GK' },
-    { name: 'حسن أكنوش', position: 'DEF' },
-    { name: 'عزيز أكنوش', position: 'DEF' },
-    { name: 'سعيد أيت طالب', position: 'MID' },
-    { name: 'أحمد أزرميم', position: 'MID' },
-    { name: 'الحسين أبرزا', position: 'DEF' },
-    { name: 'رشيد زروب', position: 'ATT' }
+    { name: 'ياسين الزاكي', position: 'GK' },
+    { name: 'عبد الله أوليلو', position: 'DEF' },
+    { name: 'العربي السعيدي', position: 'DEF' },
+    { name: 'عبد اللطيف الوادي', position: 'MID' },
+    { name: 'محمد ايت مبارك', position: 'MID' },
+    { name: 'أشرف مسلم', position: 'DEF' },
+    { name: 'سعيد أوبنعمر', position: 'ATT' }
   ],
   substitutes: [
-    { name: 'عبد الله بلاوعلي ' },
-    { name: 'أمين ناجي' },
+    { name: 'اسماعيل ايت لحاج' },
+    { name: 'رضوان ايت لحاج' },
     { name: 'عبد اللطيف القاضي' },
-    { name: 'خالد أوخليص' },
-    { name: 'مجيد أيت مهدي' }
+    { name: 'حسين ابرزا' },
+    { name: 'ايوب بيكوجان' },
+    { name: 'حمزة إسمكات' },
+    { name: 'مصعب أودمزة' }
   ]
 }
   },
   { name: 'إفسي بوغانيم', city: 'دوار بوغانيم' ,
     players: {
   starting: [
-    { name: 'انور بن الهيان', position: 'GK' },
+    { name: 'انور بن الهيان', position: 'ATT' },
     { name: 'إسماعيل ازرميم', position: 'DEF' },
     { name: 'حسين اوبيه', position: 'DEF' },
-    { name: 'عمر اوبيه', position: 'MID' },
+    { name: 'عمر اوبيه', position: 'GK' },
     { name: 'اسماعيل السعدوني', position: 'MID' },
-    { name: 'العربي نايت مهدي', position: 'DEF' },
-    { name: 'عبد السلام بنسي', position: 'ATT' }
+    { name: 'إبراهيم ايت القاضي', position: 'MID' },
+    { name: 'عبد السلام بنسي', position: 'DEF' }
   ],
   substitutes: [
-    { name: 'إبراهيم ايت القاضي' },
     { name: 'ياسر الكريضة' },
     { name: 'المحجوب بومليك' },
     { name: 'ياسين اكنوش' },
-    { name: 'اوتكماط عبد الكريم'}
+    { name: 'اوتكماط عبد الكريم'},
+    { name: 'خالد اوخليص' },
+    { name: 'عبد اللطيف أبضان' },
+    { name: 'عبد السلام بوغانيم' }
   ]
 }
   },
