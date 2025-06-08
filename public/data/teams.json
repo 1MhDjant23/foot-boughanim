@@ -42,30 +42,30 @@
 		  "points": 3,
 		  "form": ["W", "", ""]
 		},
-	  {
-		"name": "اولمبيك اومسدكت",
-		"logo": "/logo/olympiqueOmsdkt.png",
-		"played": 1,
-		"gd": 0,
-		"points": 0,
-		"form": ["L", "", ""]
-	  },
-	  {
-		"name": "رجاء اولاد علي",
-		"logo": "/logo/rajaAwaladEli.png",
-		"played": 0,
-		"gd": 0,
-		"points": 0,
-		"form": ["", "", ""]
-	  },
-	  {
-		"name": "اتحاد بوغانيم",
-		"logo": "/logo/ItihadBoughanim.png",
-		"played": 0,
-		"gd": 0,
-		"points": 0,
-		"form": ["", "", ""]
-	  }
+		{
+			"name": "رجاء اولاد علي",
+			"logo": "/logo/rajaAwaladEli.png",
+			"played": 1,
+			"gd": 0,
+			"points": 1,
+			"form": ["D", "", ""]
+		},
+		{
+			"name": "اتحاد بوغانيم",
+			"logo": "/logo/ItihadBoughanim.png",
+			"played": 1,
+			"gd": 0,
+			"points": 1,
+			"form": ["D", "", ""]
+		},
+		{
+		  "name": "اولمبيك اومسدكت",
+		  "logo": "/logo/olympiqueOmsdkt.png",
+		  "played": 1,
+		  "gd": 0,
+		  "points": 0,
+		  "form": ["L", "", ""]
+		}
 	]
   }
   
