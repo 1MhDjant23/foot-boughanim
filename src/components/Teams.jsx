@@ -58,10 +58,14 @@ const teams = [
     { name: 'عبد المجيد ايت صالح', position: 'DEF' }
   ],
   substitutes: [
-    { name: 'يونس شهبي' },
-    { name: 'نور الدين سي امغار' },
+    { name: 'أكنوش عبد الله' },
+    { name: 'خالد الجميعي' },
     { name: 'موسى سي امغار' },
     { name: 'بوغنيم مصطفى' },
+    { name: 'سعيو يونس' },
+    { name: 'سعيو محمد' },
+    { name: 'إخياطن الحبيب'}
+
     // { name: 'Sub 5' }
   ]
 } 
@@ -70,19 +74,19 @@ const teams = [
     players: {
   starting: [
     { name: 'بوفوس عبد الرحمان', position: 'GK' },
-    { name: ' ساطيح عبد الرحمان', position: 'DEF' },
+    { name: 'القاضي الحسين', position: 'DEF' },
     { name: 'امزيل ابراهيم', position: 'DEF' },
     { name: 'سعيد افقيرن', position: 'MID' },
     { name: 'تزي عبد الرحيم', position: 'MID' },
     { name: 'نوردين منير', position: 'DEF' },
-    { name: 'اشراف امزيل', position: 'ATT' }
+    { name: 'القاضي احمد', position: 'ATT' }
   ],
   substitutes: [
-    { name: 'بوكرو عبد الكريم' },
-    { name: 'مرير ياسين' },
+    { name: 'هشام سرحان' },
+    { name: 'امرير ياسين' },
     { name: 'ادير عمر' },
-    { name: 'ادير محمد' },
-    { name: 'باقي خسني' },
+    // { name: 'ادير محمد' },
+    // { name: 'باقي خسني' },
     { name: 'تزي هشام' }
   ]
 }
@@ -101,29 +105,33 @@ const teams = [
   substitutes: [
     { name: 'عمر ايت شلح' },
     { name: 'طارق اوبلال' },
-    { name: 'محمد الغجاج ' },
-    { name: 'ابراهيم كحيم ' },
-    { name: 'كمال احميمي' }
+    { name: 'محمد الغجاج' },
+    { name: 'ابراهيم كحيم' },
+    { name: 'كمال احميمي' },
+    { name: 'محمد غريس' },
+    { name: 'أحمد أوبلال' }
+
   ]
 }
   }, 
   { name: 'أتليتيكو بوغانيم', city: 'دوار بوغانيم', 
     players: {
   starting: [
-    { name: 'محمد شاعلي', position: 'GK' },
+    { name: 'حمزة مازوز', position: 'GK' },
     { name: 'عبد الكبير أيت الطالب', position: 'DEF' },
-    { name: 'حسن أيت الطالب', position: 'DEF' },
-    { name: 'ياسين أيت الطالب', position: 'MID' },
-    { name: ' عبد الكريم السعيدي', position: 'MID' },
+    { name: 'رشيد الغزالي', position: 'DEF' },
+    { name: 'ياسين أيت بلا', position: 'MID' },
+    { name: 'عبد الكريم السعيدي', position: 'MID' },
     { name: 'خالد السعيدي', position: 'DEF' },
     { name: 'عصام السعيدي', position: 'ATT' }
   ],
   substitutes: [
+    { name: 'محمد بعتاك' },
     { name: 'ناصر سي امغار' },
-    { name: 'علي أيت الطالب' },
-    { name: 'مصطفى أكنوش' }
-    // { name: 'Sub 4' },
-    // { name: 'Sub 5' }
+    { name: 'خالد بومليك' },
+    { name: 'مصطفى أكنوش' },
+    // { name: 'محمد شاعلي', position: 'GK' },
+    { name: 'اسماعيل طالحي' }
   ]
 }
   },
@@ -136,14 +144,16 @@ const teams = [
     { name: 'المهدي احميدان', position: 'MID' },
     { name: 'محمد سوريح', position: 'MID' },
     { name: 'عبدالرحيم بنيدو', position: 'ATT' },
-    { name: 'احمد اوبلال', position: 'DEF' }
+    { name: 'نورالدين الصغير', position: 'DEF' }
   ],
   substitutes: [
     { name: 'رشيد لميلودي' },
     { name: 'عبدالكريم بنشيخ' },
     { name: 'عبدالصمد العاميري' },
     { name: 'جواد الصافي' },
-    { name: ' ايوب احميدان' }
+    { name: ' ايوب احميدان' },
+    { name: 'يوسف الكبكوب' },
+    { name: 'عبد الله بوبصيط'}
   ]
 } 
   },
@@ -163,8 +173,9 @@ const teams = [
       { name: 'حسن الجبلي' },
       { name: 'السويدي محمد' },
       { name: 'محمد خالص' },
-      { name: 'السويدي زكرياء' },
-      { name: 'عماد الركيتي' }
+      { name: 'عبد الصمد التوحادي' },
+      { name: 'عماد الركيتي' },
+      { name: 'بازالدار عبد الواحد' }
     ]
   } 
   }
