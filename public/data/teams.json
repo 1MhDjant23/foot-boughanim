@@ -11,10 +11,10 @@
 		{
 			"name": "اولمبيك بوغانيم",
 			"logo": "/logo/Olympique-Boughanim.png",
-			"played": 1,
+			"played": 2,
 			"gd": 1,
-			"points": 3,
-			"form": ["W", "", ""]
+			"points": 4,
+			"form": ["W", "D", ""]
 		},
 		{
 		"name": "حسنية الحجاج",
@@ -27,10 +27,10 @@
 		{
 			"name": "اتليتيكو بوغانيم",
 			"logo": "/logo/atletc-Boughanim.png",
-			"played": 1,
+			"played": 2,
 			"gd": 0,
-			"points": 0,
-			"form": ["L", "", ""]
+			"points": 1,
+			"form": ["L", "D", ""]
 		}
 	],
 	"groupB": [
