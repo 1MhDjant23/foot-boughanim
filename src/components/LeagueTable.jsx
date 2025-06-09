@@ -61,7 +61,9 @@ function LeagueTable() {
   ]);
   const [groupBResults] = useState([
     'امجاد ايت بوتيلي  1 - 0 اولمبيك اومسدكت',
-    'اتحاد بوغانيم 0 - 0 رجاء اولاد علي'
+    'اتحاد بوغانيم 0 - 0 رجاء اولاد علي',
+    'اتحاد بوغانيم 0 - 1 امجاد ايت بوتيلي'
+
   ]);
 
   const renderLastMatches = (groupName, results) => (
