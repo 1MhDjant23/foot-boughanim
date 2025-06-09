@@ -5,8 +5,8 @@
 			"logo": "/logo/Olympique-Boughanim.png",
 			"played": 2,
 			"gd": 1,
-			"points": 4,
-			"form": ["W", "D", ""]
+			"points": 6,
+			"form": ["W", "W", ""]
 		},
 		{
 			"name": "افسي بوغانيم",
@@ -29,13 +29,13 @@
 			"logo": "/logo/atletc-Boughanim.png",
 			"played": 2,
 			"gd": 0,
-			"points": 1,
-			"form": ["L", "D", ""]
+			"points": 0,
+			"form": ["L", "L", ""]
 		}
 	],
 	"groupB": [
 		{
-		  "name": "امجاد ايت بوتيلي",
+		  "name": "ا مجاد ايت بوتيلي",
 		  "logo": "/logo/amjadAitBoutili.png",
 		  "played": 1,
 		  "gd": 1,
