@@ -3,6 +3,7 @@ import './VideoEvent.css';
 
 function VideoEvent() {
   const videos = [
+    { id: 'a9KGBvNR9Lo', title: 'اهم لحظات اليوم اللاول من دوري بوغانيم'},
     { id: 'po5fQu2WFJE', title: 'ذكريات افضل دوري في منطقة بوغانيم' },
     { id: '_d4toIH3kCc', title: 'أجواء قرعة دوري بوغانيم' },
     { id: 'GY_8ZlA0D0Q', title: '...' }

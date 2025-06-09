@@ -38,17 +38,9 @@
 		  "name": "ا مجاد ايت بوتيلي",
 		  "logo": "/logo/amjadAitBoutili.png",
 		  "played": 2,
-		  "gd": 1,
-		  "points": 4,
-		  "form": ["W", "D", ""]
-		},
-		{
-			"name": "اتحاد بوغانيم",
-			"logo": "/logo/ItihadBoughanim.png",
-			"played": 2,
-			"gd": 0,
-			"points": 2,
-			"form": ["D", "D", ""]
+		  "gd": 2,
+		  "points": 6,
+		  "form": ["W", "W", ""]
 		},
 		{
 			"name": "رجاء اولاد علي",
@@ -57,6 +49,14 @@
 			"gd": 0,
 			"points": 1,
 			"form": ["D", "", ""]
+		},
+		{
+			"name": "اتحاد بوغانيم",
+			"logo": "/logo/ItihadBoughanim.png",
+			"played": 2,
+			"gd": 0,
+			"points": 1,
+			"form": ["D", "L", ""]
 		},
 		{
 		  "name": "اولمبيك اومسدكت",
