@@ -45,10 +45,10 @@
 		{
 			"name": "رجاء اولاد علي",
 			"logo": "/logo/rajaAwaladEli.png",
-			"played": 1,
+			"played": 2,
 			"gd": 0,
-			"points": 1,
-			"form": ["D", "", ""]
+			"points": 2,
+			"form": ["D", "D", ""]
 		},
 		{
 			"name": "اتحاد بوغانيم",
@@ -61,10 +61,10 @@
 		{
 		  "name": "اولمبيك اومسدكت",
 		  "logo": "/logo/olympiqueOmsdkt.png",
-		  "played": 1,
+		  "played": 2,
 		  "gd": 0,
-		  "points": 0,
-		  "form": ["L", "", ""]
+		  "points": 1,
+		  "form": ["L", "D", ""]
 		}
 	]
   }
