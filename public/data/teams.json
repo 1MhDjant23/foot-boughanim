@@ -37,22 +37,22 @@
 		{
 		  "name": "ا مجاد ايت بوتيلي",
 		  "logo": "/logo/amjadAitBoutili.png",
-		  "played": 1,
+		  "played": 2,
 		  "gd": 1,
-		  "points": 3,
-		  "form": ["W", "", ""]
-		},
-		{
-			"name": "رجاء اولاد علي",
-			"logo": "/logo/rajaAwaladEli.png",
-			"played": 1,
-			"gd": 0,
-			"points": 1,
-			"form": ["D", "", ""]
+		  "points": 4,
+		  "form": ["W", "D", ""]
 		},
 		{
 			"name": "اتحاد بوغانيم",
 			"logo": "/logo/ItihadBoughanim.png",
+			"played": 2,
+			"gd": 0,
+			"points": 2,
+			"form": ["D", "D", ""]
+		},
+		{
+			"name": "رجاء اولاد علي",
+			"logo": "/logo/rajaAwaladEli.png",
 			"played": 1,
 			"gd": 0,
 			"points": 1,
