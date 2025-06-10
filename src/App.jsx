@@ -40,8 +40,8 @@ function App() {
 
       <Results />
       <VideoEvent />
-      <Schedule />
       <LeagueTable />
+      <Schedule />
       <Teams />
       <FinalMatchAd />
       <About />
