@@ -4,7 +4,7 @@
 			"name": "اولمبيك بوغانيم",
 			"logo": "/logo/Olympique-Boughanim.png",
 			"played": 3,
-			"gd": 6,
+			"gd": "+4",
 			"points": 7,
 			"form": ["W", "W", "D"]
 		},
@@ -12,7 +12,7 @@
 		"name": "حسنية الحجاج",
 		"logo": "/logo/Hassaniyat-al-Hajaj.png",
 		"played": 3,
-		"gd": 8,
+		"gd": "+6",
 		"points": 6,
 		"form": ["L", "W", "W"]
 		},
@@ -20,7 +20,7 @@
 			"name": "افسي بوغانيم",
 			"logo": "/logo/Ifssi-Boughanim.png",
 			"played": 3,
-			"gd": 3,
+			"gd": "+1",
 			"points": 4,
 			"form": ["W", "L", "D"]
 		},
