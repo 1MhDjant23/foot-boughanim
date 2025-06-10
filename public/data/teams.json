@@ -1,6 +1,14 @@
 {
 	"groupA": [
 		{
+			"name": "اولمبيك بوغانيم",
+			"logo": "/logo/Olympique-Boughanim.png",
+			"played": 3,
+			"gd": 6,
+			"points": 7,
+			"form": ["W", "W", "D"]
+		},
+		{
 		"name": "حسنية الحجاج",
 		"logo": "/logo/Hassaniyat-al-Hajaj.png",
 		"played": 3,
@@ -9,20 +17,12 @@
 		"form": ["L", "W", "W"]
 		},
 		{
-			"name": "اولمبيك بوغانيم",
-			"logo": "/logo/Olympique-Boughanim.png",
-			"played": 3,
-			"gd": 5,
-			"points": 6,
-			"form": ["W", "W", "L"]
-		},
-		{
 			"name": "افسي بوغانيم",
 			"logo": "/logo/Ifssi-Boughanim.png",
 			"played": 3,
 			"gd": 3,
-			"points": 6,
-			"form": ["W", "L", "W"]
+			"points": 4,
+			"form": ["W", "L", "D"]
 		},
 		{
 			"name": "اتليتيكو بوغانيم",
