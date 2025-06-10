@@ -38,17 +38,17 @@
 		  "name": "ا مجاد ايت بوتيلي",
 		  "logo": "/logo/amjadAitBoutili.png",
 		  "played": 3,
-		  "gd": "+2",
-		  "points": 7,
-		  "form": ["W", "W", "D"]
+		  "gd": "+4",
+		  "points": 9,
+		  "form": ["W", "W", "W"]
 		},
 		{
 			"name": "رجاء اولاد علي",
 			"logo": "/logo/rajaAwaladEli.png",
 			"played": 3,
-			"gd": "+1",
-			"points": 5,
-			"form": ["D", "W", "D"]
+			"gd": "-1",
+			"points": 4,
+			"form": ["D", "W", "L"]
 		},
 		{
 			"name": "اتحاد بوغانيم",
