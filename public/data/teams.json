@@ -9,20 +9,20 @@
 			"form": ["W", "W", ""]
 		},
 		{
-			"name": "افسي بوغانيم",
-			"logo": "/logo/Ifssi-Boughanim.png",
-			"played": 2,
-			"gd": 2,
-			"points": 3,
-			"form": ["W", "L", ""]
-		},
-		{
 		"name": "حسنية الحجاج",
 		"logo": "/logo/Hassaniyat-al-Hajaj.png",
 		"played": 3,
 		"gd": 2,
 		"points": 6,
 		"form": ["L", "W", "W"]
+		},
+		{
+			"name": "افسي بوغانيم",
+			"logo": "/logo/Ifssi-Boughanim.png",
+			"played": 2,
+			"gd": 2,
+			"points": 3,
+			"form": ["W", "L", ""]
 		},
 		{
 			"name": "اتليتيكو بوغانيم",
