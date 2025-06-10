@@ -19,18 +19,18 @@
 		{
 		"name": "حسنية الحجاج",
 		"logo": "/logo/Hassaniyat-al-Hajaj.png",
-		"played": 2,
-		"gd": 1,
-		"points": 3,
-		"form": ["L", "W", ""]
+		"played": 3,
+		"gd": 2,
+		"points": 6,
+		"form": ["L", "W", "W"]
 		},
 		{
 			"name": "اتليتيكو بوغانيم",
 			"logo": "/logo/atletc-Boughanim.png",
-			"played": 2,
+			"played": 3,
 			"gd": 1,
 			"points": 0,
-			"form": ["L", "L", ""]
+			"form": ["L", "L", "L"]
 		}
 	],
 	"groupB": [
