@@ -11,18 +11,18 @@
 		{
 			"name": "اولمبيك بوغانيم",
 			"logo": "/logo/Olympique-Boughanim.png",
-			"played": 2,
+			"played": 3,
 			"gd": 4,
 			"points": 6,
-			"form": ["W", "W", ""]
+			"form": ["W", "W", "L"]
 		},
 		{
 			"name": "افسي بوغانيم",
 			"logo": "/logo/Ifssi-Boughanim.png",
-			"played": 2,
-			"gd": 2,
-			"points": 3,
-			"form": ["W", "L", ""]
+			"played": 3,
+			"gd": 3,
+			"points": 6,
+			"form": ["W", "L", "W"]
 		},
 		{
 			"name": "اتليتيكو بوغانيم",
