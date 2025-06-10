@@ -24,7 +24,7 @@ function LeagueTable() {
           <th>#</th>
           <th>Team</th>
           <th>Played</th>
-          <th>Goal Difference</th>
+          <th>Goals scored</th>
           <th>Points</th>
           <th>Form</th>
         </tr>
