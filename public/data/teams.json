@@ -62,8 +62,8 @@
 		  "name": "اولمبيك اومسدكت",
 		  "logo": "/logo/olympiqueOmsdkt.png",
 		  "played": 2,
-		  "gd": 0,
-		  "points": "-2",
+		  "gd": "-2",
+		  "points": 0,
 		  "form": ["L", "L", ""]
 		}
 	]
