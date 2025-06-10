@@ -37,24 +37,24 @@
 		{
 		  "name": "ا مجاد ايت بوتيلي",
 		  "logo": "/logo/amjadAitBoutili.png",
-		  "played": 2,
-		  "gd": 2,
-		  "points": 6,
-		  "form": ["W", "W", ""]
+		  "played": 3,
+		  "gd": "+2",
+		  "points": 7,
+		  "form": ["W", "W", "D"]
 		},
 		{
 			"name": "رجاء اولاد علي",
 			"logo": "/logo/rajaAwaladEli.png",
-			"played": 2,
-			"gd": 0,
-			"points": 2,
-			"form": ["D", "D", ""]
+			"played": 3,
+			"gd": "+1",
+			"points": 5,
+			"form": ["D", "W", "D"]
 		},
 		{
 			"name": "اتحاد بوغانيم",
 			"logo": "/logo/ItihadBoughanim.png",
 			"played": 2,
-			"gd": 0,
+			"gd": "-1",
 			"points": 1,
 			"form": ["D", "L", ""]
 		},
@@ -63,8 +63,8 @@
 		  "logo": "/logo/olympiqueOmsdkt.png",
 		  "played": 2,
 		  "gd": 0,
-		  "points": 1,
-		  "form": ["L", "D", ""]
+		  "points": "-2",
+		  "form": ["L", "L", ""]
 		}
 	]
   }
