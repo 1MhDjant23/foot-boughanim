@@ -37,13 +37,13 @@ function App() {
         </div>
       </section>
       <Hero />
-      <FinalMatchAd />
 
       <Schedule />
       <VideoEvent />
-      <Teams />
       <Results />
       <LeagueTable />
+      <Teams />
+      <FinalMatchAd />
       <About />
       <Contact />
       <Footer />
