@@ -19,6 +19,7 @@ function Schedule() {
             <span className="date-time">{match.date}</span>
             <span className="team-name">{match.teamA} <span className="vs-tag">vs</span> {match.teamB}</span>
             <span className="date-time">{match.time}</span>
+            <span className="team-name">مبارة القدماء</span>
           </div>
         ))}
       </div>
