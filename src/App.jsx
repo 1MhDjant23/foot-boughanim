@@ -38,9 +38,9 @@ function App() {
       </section>
       <Hero />
 
-      <Schedule />
-      <VideoEvent />
       <Results />
+      <VideoEvent />
+      <Schedule />
       <LeagueTable />
       <Teams />
       <FinalMatchAd />
