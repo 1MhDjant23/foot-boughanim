@@ -1,20 +1,20 @@
 {
 	"groupA": [
 		{
+		"name": "حسنية الحجاج",
+		"logo": "/logo/Hassaniyat-al-Hajaj.png",
+		"played": 3,
+		"gd": 5,
+		"points": 6,
+		"form": ["L", "W", "W"]
+		},
+		{
 			"name": "اولمبيك بوغانيم",
 			"logo": "/logo/Olympique-Boughanim.png",
 			"played": 2,
 			"gd": 4,
 			"points": 6,
 			"form": ["W", "W", ""]
-		},
-		{
-		"name": "حسنية الحجاج",
-		"logo": "/logo/Hassaniyat-al-Hajaj.png",
-		"played": 3,
-		"gd": 4,
-		"points": 6,
-		"form": ["L", "W", "W"]
 		},
 		{
 			"name": "افسي بوغانيم",
