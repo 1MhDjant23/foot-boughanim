@@ -54,17 +54,17 @@
 			"name": "اتحاد بوغانيم",
 			"logo": "/logo/ItihadBoughanim.png",
 			"played": 3,
-			"gd": "-1",
-			"points": 2,
-			"form": ["D", "L", "D"]
+			"gd": "+0",
+			"points": 4,
+			"form": ["D", "L", "W"]
 		},
 		{
 		  "name": "اولمبيك اومسدكت",
 		  "logo": "/logo/olympiqueOmsdkt.png",
 		  "played": 3,
-		  "gd": "-2",
-		  "points": 1,
-		  "form": ["L", "L", "D"]
+		  "gd": "-3",
+		  "points": 0,
+		  "form": ["L", "L", "L"]
 		}
 	]
   }
