@@ -13,6 +13,7 @@ function Schedule() {
   return (
     <section className="schedule" id="schedule">
       <h2>المباريات القادمة</h2>
+      <h3>(مباريات نصف النهائي)</h3>
       <div className="schedule-table">
         {matches.map((match, index) => (
           <div className="match-row" key={index}>
