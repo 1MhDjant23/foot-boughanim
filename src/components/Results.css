@@ -33,7 +33,7 @@
   box-shadow: 0 6px 6px var(--shadow-color);
 }
 .result-row h3 {
-  color: green;
+  color: blue;
 } 
 .team-result {
   color: var(--shadow-color);
