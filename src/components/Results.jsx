@@ -11,9 +11,9 @@ function Results() {
   }, []);
   return (
     <section className="results" id="results">
-      <h2>نتائج مباريات اليوم</h2>
+      <h2>نتائج المباريات</h2>
       <div className="results-table">
-  
+  <h3>نتائج مباريات نصف النهائي</h3>
         {results.map((result, index) => (
           <div className="result-row" key={index}>
             <h3>{result.stat}</h3>
