@@ -13,7 +13,7 @@ function Results() {
     <section className="results" id="results">
       <h2>نتائج مباريات اليوم</h2>
       <div className="results-table">
-        <h3> (جارية الآن) </h3>
+  
         {results.map((result, index) => (
           <div className="result-row" key={index}>
             <h3>{result.stat}</h3>
