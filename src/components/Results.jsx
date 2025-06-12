@@ -16,7 +16,7 @@ function Results() {
         <h3> (جارية الآن) </h3>
         {results.map((result, index) => (
           <div className="result-row" key={index}>
-            <h2>{result.stat}</h2>
+            <h4>{result.stat}</h4>
             <span className="team-result">{result.teamA}</span>
             <span className="score">{result.score}</span>
             <span className="team-result">{result.teamB}</span>
