@@ -31,11 +31,7 @@ const FinalMatchAd = () => {
   
     return (
       <section className="final-match-ad">
-        /*<h2>🔥 الحدث المنتظر 🔥</h2>
-        <div className="match-info-banner">
-          <img src="/ads/pic6.jpeg" alt="Match Details" />
-        </div>
-        <h2>🏆 أبرز أحداث المبارة السابقة لاساطير بوغانيم</h2>*/
+      
   
         <div className="slideshow-container">
           {images.map((img, index) => (
