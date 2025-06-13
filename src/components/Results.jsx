@@ -17,7 +17,7 @@ function Results() {
       <div className="result-row">
 
            <span className="team-result">اولمبيك بوغانيم</span>
-            <span className="score">0 - 0</span>
+            <span className="score">1 - 2</span>
             <span className="team-result">امجاد ايت بوتيلي</span>
       </div>
 
