@@ -24,7 +24,7 @@ function WinnerSection() {
             <br />
         </p>
         <img 
-          src="/public/olampique.jpeg" 
+          src="/olampique.jpeg" 
           alt="Winning Team" 
           className="winner-image" 
         />
