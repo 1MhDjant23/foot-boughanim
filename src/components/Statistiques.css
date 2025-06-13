@@ -1,0 +1,15 @@
+.stats-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--nav-color);
+    border: none;
+    border-radius: 4px;
+    margin: 8px 8px;
+    background-color: var(--card-color);
+}
+
+.stats-section h2 {
+    color: var(--shadow-color);
+}

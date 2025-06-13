@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 import LeagueTable from './components/LeagueTable';
 import FinalMatchAd from './components/FinalMatchAd';
 import FinalMatchSection from './components/finalMatchSection';
+import WinnerSection from './components/winnerSection';
 import './App.css'
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         </div>
       </section>
       <Hero />
+      <WinnerSection />
       <FinalMatchSection />
       <Results />
       <VideoEvent />
