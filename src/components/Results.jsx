@@ -13,7 +13,7 @@ function Results() {
     <section className="results" id="results">
       <h2>نتائج المباريات</h2>
       <div className="results-table">
-      <h3>مبارة النهائي  (جارية الان)</h3>
+      <h3>مبارة النهائي  (ركلات الترجيح ,جارية الان)</h3>
       <div className="result-row">
 
            <span className="team-result">اولمبيك بوغانيم</span>
