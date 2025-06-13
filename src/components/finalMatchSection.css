@@ -1,25 +1,9 @@
 .final-match-section {
-    padding: 40px;
-    text-align: center;
-    color: #fff; /* Ensure text is visible on the background */
-    background-image: url('/public/final.'); /* Replace with the actual path to your image */
+    margin: 8px 8px;
+    height: 500px; /* Adjust height as needed */
+    background-image: url('/final.jpg'); /* Replace with the actual path to your image */
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-  }
-  
-  .final-match-title {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .final-match-description {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-  
-  .final-match-details p {
-    font-size: 18px;
-    margin: 5px 0;
+    /* background-repeat: no-repeat; */
+    border-radius: 4px;
   }

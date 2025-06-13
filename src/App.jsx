@@ -38,7 +38,7 @@ function App() {
         </div>
       </section>
       <Hero />
-      {/* <FinalMatchSection /> */}
+      <FinalMatchSection />
       <Results />
       <VideoEvent />
       <LeagueTable />
