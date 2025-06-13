@@ -1,4 +1,5 @@
 .final-match-section {
+    border: none;
     margin: 8px 8px;
     height: 500px; /* Adjust height as needed */
     background-image: url('/final.jpg'); /* Replace with the actual path to your image */
