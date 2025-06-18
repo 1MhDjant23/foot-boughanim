@@ -21,8 +21,9 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color:var(--bg-color);
+  background-color: black;
   color: var(--text-color);
+  text-align: center;
 }
 html {
   scroll-behavior: smooth;
@@ -34,7 +35,7 @@ section {
   box-shadow: 0 8px 10px var(--shadow-color);
 }
 header {
-  background-color: var(--bg-color);
+  background-color: black;
 }
 a {
   color: inherit;
